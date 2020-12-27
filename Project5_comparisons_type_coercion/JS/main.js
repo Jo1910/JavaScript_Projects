@@ -1,12 +1,10 @@
 document.write(typeof 10); // returning a data type
 
-function notNum() {
-  //this function will determine whether a value is a number
+function notNum() { //this function will determine whether a value is a number
   document.getElementById("nan").innerHTML = isNaN("6"); // displaying the value to the HTML element with the 'nan' id
 }
 
-function not_Function() {
-  // this function will return the inverted boolean value
+function not_Function() { // this function will return the inverted boolean value
   document.getElementById("Not").innerHTML = !(1 > 10); // comparing values and output by HTML element with 'Not' id
 }
 
